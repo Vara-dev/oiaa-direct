@@ -140,27 +140,27 @@
 
 /* Specific heading sizes for the meeting guide */
 #oiaa-meetings-root h1 {
-  font-size: 2rem !important; /* 32px - Page title */
+  font-size: 1.75rem !important; /* 28px - Page title */
 }
 
 #oiaa-meetings-root h2 {
-  font-size: 1.75rem !important; /* 28px - Meeting card titles */
+  font-size: 1.5rem !important; /* 24px - Meeting card titles */
 }
 
 #oiaa-meetings-root h3 {
-  font-size: 1.5rem !important; /* 24px - Section headings */
+  font-size: 1.25rem !important; /* 20px - Section headings */
 }
 
 #oiaa-meetings-root h4 {
-  font-size: 1.25rem !important; /* 20px - Subsection headings */
+  font-size: 1.125rem !important; /* 18px - Subsection headings */
 }
 
 #oiaa-meetings-root h5 {
-  font-size: 1.125rem !important; /* 18px */
+  font-size: 1rem !important; /* 16px */
 }
 
 #oiaa-meetings-root h6 {
-  font-size: 1rem !important; /* 16px */
+  font-size: 0.875rem !important; /* 14px */
 }
 
 /* ============================================================
@@ -249,6 +249,8 @@
   /* Do NOT reset padding, background, border - these are set by components */
   font-family: inherit;
   box-sizing: border-box;
+  /* Foundation/theme styles often add margin-bottom to form controls */
+  margin: 0 !important;
 }
 
 /* ============================================================
@@ -417,7 +419,7 @@ body.admin-bar #oiaa-meetings-root {
 
   /* Smaller heading font sizes for mobile */
   #oiaa-meetings-root h1 {
-    font-size: 1.5rem !important; /* 24px - Page title */
+    font-size: 1.375rem !important; /* 22px - Page title */
   }
 
   #oiaa-meetings-root h2 {
